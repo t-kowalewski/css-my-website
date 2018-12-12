@@ -1,11 +1,27 @@
-div {
-    background-color: #f0ece2;
-}
-
 body {
     margin: 0;
 }
 
 h1 {
     margin-top: 0;
+}
+
+.top-container {
+    background-color: #f0ece2;
+}
+
+.middle-container {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.bottom-container {
+    width: 200px;
+    height: 200px;
+    background-color: olive;
+}
+
+.dev {
+    text-decoration: underline;
 }
