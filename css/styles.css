@@ -29,6 +29,11 @@ p {
     font-size: 1.05em;
 }
 
+#prof-pic {
+    width: 15%;
+    border-radius: 50%;
+}
+
 .top-container {
     background-color: #f0ece2;
     position: relative;
@@ -36,15 +41,11 @@ p {
 }
 
 .middle-container {
-    width: 200px;
-    height: 200px;
-    background-color: aqua;
+
 }
 
 .bottom-container {
-    width: 200px;
-    height: 200px;
-    background-color: olive;
+
 }
 
 .dev {
@@ -61,4 +62,8 @@ p {
     position: absolute;
     bottom: 300px;
     left: 400px;
+}
+
+.footer-icon {
+    height: 32px;
 }
