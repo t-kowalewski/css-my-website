@@ -25,8 +25,8 @@ p {
 }
 
 #h1-descr {
-    font-weight: 500;
-    font-size: 1.05em;
+    font-weight: 400;
+    font-size: 140%;
 }
 
 #prof-pic {
@@ -48,7 +48,7 @@ p {
 
 }
 
-.dev {
+.pro {
     text-decoration: underline;
 }
 
