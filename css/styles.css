@@ -5,28 +5,30 @@ body {
 }
 
 h1 {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 40px auto 0;
     font-family: 'Nanum Brush Script', cursive;
-    font-size: 4.7em;
+    font-size: 4.7rem;
     color: #596e79;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #596e79;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #3b4e57;
 }
 
-p {
-    color: #596e79;
+a {
+    color: #3b4e57;
 }
 
 #h1-descr {
-    font-weight: 400;
-    font-size: 140%;
+    font-weight: normal;
+    font-size: 1.9rem;
 }
 
 #prof-pic {
@@ -48,20 +50,42 @@ p {
 
 }
 
-.pro {
-    text-decoration: underline;
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-img {
+    width: 25%;
+}
+
+.progr-img {
+    float: left;
+    margin-right: 30px;
+}
+
+.mob-dev-img {
+    float: right;
+    margin-left: 30px;
+}
+
+.cybersec-img {
+    float: left;
+    margin-right: 30px;
 }
 
 .top-cloud {
     position: absolute;
-    right: 400px;
+    right: 350px;
     top: 50px;
 }
 
 .bottom-cloud {
     position: absolute;
     bottom: 300px;
-    left: 400px;
+    left: 350px;
 }
 
 .footer-icon {
