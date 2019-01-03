@@ -1,3 +1,4 @@
+/* Main parts */
 body {
     margin: 0;
     text-align: center;
@@ -22,8 +23,35 @@ h3 {
     color: #3b4e57;
 }
 
-a {
+hr {
+    border-style: dotted none none;
+    border-width: thick;
+    width: 5%;
+    color: #596e79;
+    margin: 80px auto;
+}
+
+/* a {
     color: #3b4e57;
+} */
+
+.top-cloud {
+    position: absolute;
+    right: 350px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 350px;
+}
+
+/* Top container */
+.top-container {
+    background-color: #f0ece2;
+    position: relative;
+    padding-top: 100px;
 }
 
 #h1-descr {
@@ -36,18 +64,9 @@ a {
     border-radius: 50%;
 }
 
-.top-container {
-    background-color: #f0ece2;
-    position: relative;
-    padding-top: 100px;
-}
-
+/* Middle container */
 .middle-container {
-
-}
-
-.bottom-container {
-
+    padding: 80px 0 70px;
 }
 
 .skill-row {
@@ -76,18 +95,46 @@ a {
     margin-right: 30px;
 }
 
-.top-cloud {
-    position: absolute;
-    right: 350px;
-    top: 50px;
+/* Bottom container */
+.bottom-container {
+    background-color: #f0ece2;
+    padding: 40px 0;
 }
 
-.bottom-cloud {
-    position: absolute;
-    bottom: 300px;
-    left: 350px;
+.contact-me {
+    width: 50%;
+    margin: 10px auto;
+    line-height: 2;
+}
+
+.butn {
+  background: #dfd3c3;
+  background-image: -webkit-linear-gradient(top, #dfd3c3, #c7b198);
+  background-image: -moz-linear-gradient(top, #dfd3c3, #c7b198);
+  background-image: -ms-linear-gradient(top, #dfd3c3, #c7b198);
+  background-image: -o-linear-gradient(top, #dfd3c3, #c7b198);
+  background-image: linear-gradient(to bottom, #dfd3c3, #c7b198);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #596e79;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #f0ece2;
+  background-image: -webkit-linear-gradient(top, #f0ece2, #c7b198);
+  background-image: -moz-linear-gradient(top, #f0ece2, #c7b198);
+  background-image: -ms-linear-gradient(top, #f0ece2, #c7b198);
+  background-image: -o-linear-gradient(top, #f0ece2, #c7b198);
+  background-image: linear-gradient(to bottom, #f0ece2, #c7b198);
+  text-decoration: none;
 }
 
 .footer-icon {
     height: 32px;
+    padding: 0 5px;
 }
