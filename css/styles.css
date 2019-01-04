@@ -3,6 +3,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    color: #40514E;
 }
 
 h1 {
@@ -25,9 +26,9 @@ h3 {
 
 hr {
     border-style: dotted none none;
-    border-width: thick;
+    border-width: 6px;
     width: 5%;
-    color: #596e79;
+    color: #dfd3c3;
     margin: 80px auto;
 }
 
@@ -37,14 +38,14 @@ hr {
 
 .top-cloud {
     position: absolute;
-    right: 350px;
+    right: 250px;
     top: 50px;
 }
 
 .bottom-cloud {
     position: absolute;
     bottom: 300px;
-    left: 350px;
+    left: 250px;
 }
 
 /* Top container */
@@ -59,14 +60,24 @@ hr {
     font-size: 1.9rem;
 }
 
+/* Middle container */
+.middle-container {
+    padding: 0 0 70px;
+}
+
 #prof-pic {
-    width: 15%;
+    width: 30%;
     border-radius: 50%;
 }
 
-/* Middle container */
-.middle-container {
-    padding: 80px 0 70px;
+.profile {
+    width: 50%;
+    margin: 70px auto;
+    line-height: 2;
+}
+
+.profile h2 {
+    margin-top: 15px;
 }
 
 .skill-row {
@@ -95,16 +106,14 @@ hr {
     margin-right: 30px;
 }
 
-/* Bottom container */
-.bottom-container {
-    background-color: #f0ece2;
-    padding: 40px 0;
-}
-
 .contact-me {
     width: 50%;
-    margin: 10px auto;
+    margin: auto;
     line-height: 2;
+}
+
+.contact-me p {
+    margin-bottom: 30px;
 }
 
 .butn {
@@ -117,7 +126,8 @@ hr {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   color: #596e79;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -132,6 +142,17 @@ hr {
   background-image: -o-linear-gradient(top, #f0ece2, #c7b198);
   background-image: linear-gradient(to bottom, #f0ece2, #c7b198);
   text-decoration: none;
+}
+
+/* Bottom container */
+.bottom-container {
+    background-color: #f0ece2;
+    padding: 40px 0 20px;
+}
+
+.bottom-container p {
+    font-size: 0.9rem;
+    padding-top: 20px;
 }
 
 .footer-icon {
